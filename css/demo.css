@@ -1,0 +1,28 @@
+.background-color {
+    background: rgb(1,22,39);
+    background: linear-gradient(258deg, rgba(1,22,39,0.9233894241290266) 9%, rgba(73,51,255,1) 100%); 
+}
+
+.dark-font-bg {
+    color: azure
+}
+
+.nav-link-helper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.dark-border-color {
+    border-color: transparent
+}
+
+.img-border {
+    border-radius: 25%;
+}

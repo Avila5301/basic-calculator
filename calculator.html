@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+HK&family=Noto+Serif&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/calculator.css">
+</head>
+
+<body class="background-color">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/messenger.png" alt="" width="30" height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Site Demos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="containerNew">
+        <div class="wrapper">
+            <section class="screen">
+                0
+            </section>
+
+            <section class="calc-buttons">
+                <!-- Row 1 or First Row -->
+                <div class="calc-button-row">
+                    <button class="calc-button double">C</button>
+                    <button class="calc-button">&larr;</button>
+                    <button class="calc-button">&divide;</button>
+                </div>
+
+                <!-- Row 2 or First Row -->
+                <div class="calc-button-row">
+                    <button class="calc-button">7</button>
+                    <button class="calc-button">8</button>
+                    <button class="calc-button">9</button>
+                    <button class="calc-button">&times;</button>
+                </div>
+
+                <!-- Row 3 or First Row -->
+                <div class="calc-button-row">
+                    <button class="calc-button">4</button>
+                    <button class="calc-button">5</button>
+                    <button class="calc-button">6</button>
+                    <button class="calc-button">&minus;</button>
+                </div>
+
+                <!-- Row 4 or First Row -->
+                <div class="calc-button-row">
+                    <button class="calc-button">1</button>
+                    <button class="calc-button">2</button>
+                    <button class="calc-button">3</button>
+                    <button class="calc-button">&plus;</button>
+                </div>
+
+                <!-- Row 5 or  -->
+                <div class="calc-button-row">
+                    <button class="calc-button triple">0</button>
+                    <button class="calc-button">&equals;</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-5">
+            <div class="container justify-content-start">
+                <a class="navbar-brand" href="#"><img src="./img/messenger.png" alt="" width="30" height="24"></a>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" href="#">Site Demos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container pb-5">
+            <div class="row pt-3 dark-font-bg justify-content-between">
+                <div class="col-4">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/facebook.png" alt="" width="30" height="24">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/instagram.png" alt="" width="30" height="24">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/twitter.png" alt="" width="30" height="24">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/youtube.png" alt="" width="30" height="24">
+                    </a>
+                </div>
+                <div class="col-6 dark-font-bg text-end">
+                    <p>Email: support@example.com</p>
+                </div>
+            </div>
+            <div class="row dark-font-bg">
+                <div class="col-6">
+                    <p>Avi Avila's Web Dev Site is proudly made in Houston, TX</p>
+                </div>
+                <div class="col-6 text-end">
+                    <p> © 2021 | Terms of Service | Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/calc.js"></script>
+</body>
+
+</html>
